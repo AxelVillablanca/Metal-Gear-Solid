@@ -1,0 +1,280 @@
+:root{
+    --blanco: #fff;
+    --rojo: #FF232F;
+    --rojo1: #ED1C24;
+    --azul: #3ea7e8;
+    --naranja: #ca5432;
+    --plastico: #2e3833;
+    --verde: #568337;
+    --verde2: #adc901;
+    --verde3: #758c49;
+    --cafe: #746f4d;
+    --cafe2: #443828;
+    --amarillo: #cbcb8b;
+    --gris: #324833;
+    --negro: #000;
+    --gray: #666666;
+}
+
+
+
+
+/*  METAL GEAR SOLID 1 */
+
+#metal1,
+#tactical1,
+#Barra{
+fill: var(--rojo1);
+transition: all 1.5s ease;
+}
+
+#solid1{
+    fill: var(--blanco);
+}
+
+#tactical1{
+    transform: translateY(-100%);
+}
+#Barra{
+    opacity: .5;
+    transform: translateY(100%);
+    
+}
+
+
+svg:hover #tactical1{
+    transform: translateY(0%);
+    animation: blink 1.5s linear infinite;
+}
+svg:hover #Barra{
+    transform: translateY(0%);
+    animation: blink 1.5s linear infinite;
+    fill: var(--rojo1);
+    
+}
+svg:hover #metal1{
+    animation: blink 1.5s linear infinite;
+}
+
+svg:hover #solid1{
+    animation: blink 1.5s linear infinite;
+}
+
+
+/*  METAL GEAR SOLID 2 */
+
+
+
+
+#nro2{
+    fill: var(--azul);
+    transition: all 1s ease;
+}
+#metal2,
+#sub{
+    fill: var(--blanco);
+    transition: all 1s ease-in-out;
+}
+#sons{
+    transform: translateX(-100%);
+    transition: all 1s ease-in-out;
+}
+#liberty{
+    transform: translateX(100%);
+    transition: all 1s ease-in-out;
+}
+#of{
+    transform: translateY(100%);
+    transition: all 1s ease-in-out;
+}
+
+svg:hover #sub{
+    fill: var(--naranja) ;
+    transition-delay: .2s;
+}
+
+svg:hover #sons{
+    transform: translateX(0);
+}
+svg:hover #of{
+    transform: translateY(0);
+}
+svg:hover #liberty{
+    transform: translateX(0);
+}
+svg:hover #metal2{
+    fill: var(--azul);
+}
+svg:hover #nro2{
+    fill: var(--blanco);
+}
+
+
+
+
+
+/*  METAL GEAR SOLID 3 */
+
+
+#nro3,
+#subt{
+    fill: var(--verde2);
+    transition: all 1s ease-in-out;
+}
+#titulo3{
+    fill: var(--negro);
+    transition: all 1s ease-in-out;
+}
+#serpiente{
+    fill: var(--blanco);
+    transition: all 1.2s ease-in-out;
+}
+#subt{
+    opacity: 0;
+}
+#serpiente{
+    transform: translateX(-100%);
+}
+#color1,
+#color2,
+#color3,
+#color4,
+#color5,
+#color6{
+    transition: 1s ease-in-out;
+}
+
+svg:hover #subt{
+ opacity: 1;
+}
+svg:hover #serpiente{
+    transform: translateX(-20%);
+    transform: translateY(35%);
+    opacity: .8;
+}
+
+svg:hover #color1{
+    fill: var(--amarillo);
+    transition-delay: .3s;
+}
+svg:hover #color2{
+    fill: var(--cafe);
+    transition-delay: .5s;
+}
+svg:hover #color3{
+    fill: var(--plastico);
+    transition-delay: .7s;
+}
+svg:hover #color4{
+    fill: var(--cafe2);
+    transition-delay: 1s;
+}
+svg:hover #color5{
+    fill: var(--gris);
+    transition-delay: .8s;
+}
+svg:hover #color6{
+    fill: var(--verde3);
+    transition-delay: .9s;
+}   
+
+svg:hover #nro3{
+    fill: var(--verde);
+    transition-delay: .8s;
+}
+
+
+
+
+/*  METAL GEAR SOLID 4 */
+
+
+#nro4{
+    fill: var(--negro);
+    transition: all 1s ease;
+}
+#titulo4{
+    fill: var(--blanco);
+    transition: all 1s ease;
+}   
+#sub4{
+    fill: var(--gray);
+    opacity: .5;
+    transition: all 1s ease;
+    transform: rotate(50deg);
+}
+#cigarro{
+    opacity: 0;
+    transition: all 1s ease;
+}
+
+
+svg:hover #nro4{
+    fill: var(--blanco);
+}
+svg:hover #titulo4{
+    fill: var(--rojo1);
+}
+svg:hover #sub4{
+    transition-delay: .3s;
+    opacity: 1;
+    transform: rotate(0deg);
+    transform: translateX(10%);
+}
+svg:hover #cigarro{
+    opacity: 1;
+    transform: translateX(10%);
+}
+
+
+
+
+/*  METAL GEAR SOLID 5 */
+
+
+#black{
+    fill: var(--blanco);
+}
+#color{
+    fill: var(--rojo);
+}
+
+#phantom,
+#tactical,
+#metal5{ 
+    transition: all 1.5s ease;
+}
+#phantom{
+    transform: translateX(-100%);
+}
+#tactical{
+    transform: translateY(100%);
+}
+svg:hover #phantom{
+    transform: translateX(0%);
+}
+svg:hover #tactical{
+    transform: translateY(-5%);
+}
+svg:hover #metal5{
+    transform:scale(1.1);
+}
+
+
+
+
+
+
+@keyframes blink{
+    30%{
+        opacity: 0;
+    }
+    60%{
+        opacity: .5;
+    }
+    90%{
+        opacity: 1;
+    }
+
+}
+

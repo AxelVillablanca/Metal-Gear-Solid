@@ -1,0 +1,44 @@
+
+
+.logos{
+    margin: 3vh 2vw 3vh 0;
+    position: relative;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.musica{
+    width: 5vw;
+    height: 10vh;
+    position: sticky;
+    color: #FF232F;
+    float: right;
+    top: 50%;
+    margin: 4vh 1vw 4vh 0;
+    align-items: center;
+    text-align: center;
+    overflow: 1;
+    transition: all 1s ease;
+}
+
+.musica p{
+    position: sticky;
+    font-size: 1rem;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 5vh;
+
+}
+
+.musica i{
+    scale: 3.5;
+    color: #FF232F;
+    cursor: pointer;
+}
+
+
+
+
+
